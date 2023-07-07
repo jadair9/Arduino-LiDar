@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h> //header file of software serial port
-SoftwareSerial Serial1(2,4); //define software serial port name as Serial1 and define pin2 as RX and pin4 as TX
+SoftwareSerial Serial1(4,2); //define software serial port name as Serial1 and define pin2 as RX and pin4 as TX
 /* For Arduinoboards with multiple serial ports like DUEboard, interpret above two pieces of code and
 directly use Serial1 serial port*/
 int dist; //actual distance measurements of LiDAR
